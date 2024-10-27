@@ -4,8 +4,9 @@
     {
         public double CalculateExpression()
         {
+            // Четкое выполнение операции с точностью до двух десятичных
             double result = (1 + 2) * (1 + 9.0 / 3);
-            return Math.Round(result, 4); // округление до 4 знаков
+            return Math.Round(result, 2); // округление до 2 знаков, чтобы избежать проблем с точностью
         }
     }
 }

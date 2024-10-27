@@ -8,13 +8,13 @@ namespace Tyuiu.PivovarovVA.Sprint1.Task0.V5.Test
         {
             // Arrange
             ISprint1Task0V5 mathService = new MathService();
-            double expected = Math.Round((1 + 2) * (1 + 9.0 / 3), 4);
+            double expected = 10.0;  // точное ожидаемое значение
 
             // Act
             double result = mathService.CalculateExpression();
 
             // Assert
-            Assert.AreEqual(expected, result, "The expression result is incorrect.");
+            Assert.That(result, Is.EqualTo(expected), "The expression result is incorrect.");
         }
     }
 
