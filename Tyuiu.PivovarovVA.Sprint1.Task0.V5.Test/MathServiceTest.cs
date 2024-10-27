@@ -1,3 +1,5 @@
+using Tyuiu.PivovarovVA.Sprint1.Task0.V5.Lib; // Убедитесь, что используете правильное пространство имен
+
 namespace Tyuiu.PivovarovVA.Sprint1.Task0.V5.Test
 {
     [TestClass]
@@ -6,36 +8,20 @@ namespace Tyuiu.PivovarovVA.Sprint1.Task0.V5.Test
         [TestMethod]
         public void CalculateExpression_ReturnsCorrectResult()
         {
-            // Arrange
-            ISprint1Task0V5 mathService = new MathService();
-            double expected = 10.0;  // точное ожидаемое значение
+            ISprint1Task0V5 mathService = new MathService(); // Убедитесь, что MathService реализует ISprint1Task0V5
+            double expected = 12.0;
 
-            // Act
             double result = mathService.CalculateExpression();
 
-            // Assert
-            Assert.That(result, Is.EqualTo(expected), "The expression result is incorrect.");
+            Assert.That(result, Is.EqualTo(expected).Within(0.001), "Неверный результат выражения");
         }
-    }
-
-    internal class TestClassAttribute : Attribute
-    {
     }
 
     internal class TestMethodAttribute : Attribute
     {
     }
 
-    internal class MathService : ISprint1Task0V5
+    internal class TestClassAttribute : Attribute
     {
-        public double CalculateExpression()
-        {
-            throw new NotImplementedException();
-        }
-    }
-
-    internal interface ISprint1Task0V5
-    {
-        double CalculateExpression();
     }
 }

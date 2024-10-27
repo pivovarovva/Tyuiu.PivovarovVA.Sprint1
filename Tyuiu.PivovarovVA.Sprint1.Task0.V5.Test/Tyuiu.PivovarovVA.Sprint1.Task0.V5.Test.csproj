@@ -19,6 +19,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Tyuiu.PivovarovVA.Sprint1.Task0.V5.Lib\Tyuiu.PivovarovVA.Sprint1.Task0.V5.Lib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="Microsoft.Playwright.NUnit" />
     <Using Include="NUnit.Framework" />
     <Using Include="System.Text.RegularExpressions" />
