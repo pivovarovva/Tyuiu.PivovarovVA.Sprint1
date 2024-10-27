@@ -5,11 +5,11 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{50B4A35B-31F8-43D1-B2A9-C92D5022215F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.PivovarovVA.Sprint1.Task0.V5", "..\Tyuiu.PivovarovVA.Sprint1\Tyuiu.PivovarovVA.Sprint1.Task0.V5\Tyuiu.PivovarovVA.Sprint1.Task0.V5.csproj", "{84DE0ABE-B2EE-4DAD-8CCD-D0403763E3EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISprint1.Task0.V5", "..\Tyuiu.PivovarovVA.Sprint1\Tyuiu.PivovarovVA.Sprint1.Task0.V5\ISprint1.Task0.V5.csproj", "{84DE0ABE-B2EE-4DAD-8CCD-D0403763E3EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.PivovarovVA.Sprint1.Task0.V5.Lib", "Tyuiu.PivovarovVA.Sprint1.Task0.V5.Lib\Tyuiu.PivovarovVA.Sprint1.Task0.V5.Lib.csproj", "{DAFB8369-71DC-4E5E-8C3F-844015A5C6CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISprint1.Task0.V5.Lib", "Tyuiu.PivovarovVA.Sprint1.Task0.V5.Lib\ISprint1.Task0.V5.Lib.csproj", "{DAFB8369-71DC-4E5E-8C3F-844015A5C6CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.PivovarovVA.Sprint1.Task0.V5.Test", "Tyuiu.PivovarovVA.Sprint1.Task0.V5.Test\Tyuiu.PivovarovVA.Sprint1.Task0.V5.Test.csproj", "{57DEE3AF-F0B2-4403-9765-CB602581D90F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISprint1.Task0.V5.Test", "Tyuiu.PivovarovVA.Sprint1.Task0.V5.Test\ISprint1.Task0.V5.Test.csproj", "{57DEE3AF-F0B2-4403-9765-CB602581D90F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,4 +1,4 @@
-namespace Tyuiu.PivovarovVA.Sprint1.Task0.V5.Test
+namespace ISprint1.Task0.V5.Test
 {
     [TestClass]
     public class MathServiceTest

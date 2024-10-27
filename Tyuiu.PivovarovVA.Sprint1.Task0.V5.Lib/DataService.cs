@@ -1,4 +1,4 @@
-﻿namespace Tyuiu.PivovarovVA.Sprint1.Task0.V5.Lib
+﻿namespace ISprint1.Task0.V5.Lib
 {
     public static class MathService
     {
