@@ -4,7 +4,8 @@
     {
         public double CalculateExpression()
         {
-            return (1 + 2) * (1 + 9.0 / 3);
+            double result = (1 + 2) * (1 + 9.0 / 3);
+            return Math.Round(result, 4); // округление до 4 знаков
         }
     }
 }
