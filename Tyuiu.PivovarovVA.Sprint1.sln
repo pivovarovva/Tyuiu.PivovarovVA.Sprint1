@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{50B4A35B-31F8-43D1-B2A9-C92D5022215F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ISprint1.Task0.V5", "ISprint1.Task0.V5", "{50B4A35B-31F8-43D1-B2A9-C92D5022215F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISprint1.Task0.V5", "..\Tyuiu.PivovarovVA.Sprint1\Tyuiu.PivovarovVA.Sprint1.Task0.V5\ISprint1.Task0.V5.csproj", "{84DE0ABE-B2EE-4DAD-8CCD-D0403763E3EC}"
 EndProject
